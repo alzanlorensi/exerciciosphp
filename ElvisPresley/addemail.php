@@ -1,5 +1,5 @@
 <?php
- $db= mysqli_connect('localhost', 'root', '', 'exercicios') or die("Não deu boa");
+ $db= mysqli_connect('localhost', 'root', '1234', 'exercicios') or die("Não deu boa");
  $nome= $_POST["nome"];
  $sobrenome= $_POST["sobrenome"];
  $email= $_POST["email"];

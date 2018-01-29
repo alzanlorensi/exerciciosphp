@@ -1,5 +1,5 @@
 <?php
- $db= mysqli_connect('localhost', 'root', '', 'exercicios') or die("Não deu boa");
+ $db= mysqli_connect('localhost', 'root', '1234', 'exercicios') or die("Não deu boa");
  $assunto= $_POST["assunto"];
  $mensagem= $_POST["mensagem"];
  $query= "SELECT * from elvis;";
